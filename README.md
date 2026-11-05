@@ -1,24 +1,14 @@
 # 소명의 AI 협업 지침
 
-문제의 맥락과 근거를 파악하고, 작은 변경으로 쓸 수 있는 결과를 만들며, 실제 확인한 범위만 설명하기 위한 개인 작업 기준입니다.
-
-## 중요하게 보는 것
-
-- 요구, 작업 결과, 확인 방법의 연결
-- 사실과 추론의 구별, 근거의 적용 범위
-- 기존 자료와 사용자 편집의 보존
-- 영향에 비례한 확인과 작은 변경
-- 이해할 수 있는 설명과 완결된 산출물
+과제에서 필요한 기능의 범위를 정하고, 요구사항부터 실제로 확인한 결과까지 근거를 남기기 위한 개인 작업 기준입니다. 전달할 때는 사용자가 핵심 동작과 선택 이유, 직접 확인하는 방법을 자기 말로 설명할 수 있도록 돕습니다.
 
 ## 구성
 
-- `skills/somyeong-collaboration/SKILL.md`: 공통 협업 기준
-- `references/evidence-and-analysis.md`: Skill 폴더 안의 자료 조사·분석 기준
-- `references/build-and-deliver.md`: Skill 폴더 안의 구현·전달 기준
-- `START-HERE.txt`: 문서를 읽고 적용하도록 요청하는 예시
+- [SKILL.md](skills/somyeong-collaboration/SKILL.md)에서 범위 설정, 구현, 검증, 설명에 적용할 핵심 기준을 읽습니다.
+- [PRN-guide.md](skills/somyeong-collaboration/references/PRN-guide.md)는 여러 단계의 프로젝트에서 결정 근거를 남기고 작업 과정과 결과를 전달할 때 사용합니다.
+- [근거와 분석 기준](skills/somyeong-collaboration/references/evidence-and-analysis.md)과 [구현과 전달 기준](skills/somyeong-collaboration/references/build-and-deliver.md)은 해당 작업에 필요할 때 읽습니다.
+- [START-HERE.txt](START-HERE.txt)에 AI에게 파일을 읽고 적용하도록 요청하는 문장이 있습니다.
 
 ## 사용
 
-작업을 시작할 때 Skill 파일을 읽도록 요청하세요. 기본적으로 짧은 핵심 지침만 읽습니다. 자료 조사나 구현의 세부 확인이 필요하면 해당 참고 문서를 선택해서 읽도록 요청하세요. 전체 폴더를 함께 두어 참고 문서 경로를 유지합니다. 현재 도구에서 Skill 자동 인식을 지원하지 않아도 파일 경로를 지정해 읽게 할 수 있습니다. 외부 Skill, MCP, 추가 모델, API 키는 필요하지 않습니다.
-
-현재 작업의 규정과 구체적 요구를 먼저 따릅니다. 이 문서가 도구 권한을 추가하거나 외부 연결을 허용하지는 않습니다. 짧은 수정에는 해당 기준만 적용합니다.
+저장소를 작업 환경에 가져온 뒤 AI에게 `skills/somyeong-collaboration/SKILL.md`의 실제 경로를 알려주고 읽도록 요청하세요. Skill을 설치하지 않은 환경에서도 파일을 직접 읽게 할 수 있습니다. 현재 작업의 규정과 구체적인 요구사항을 우선합니다.
